@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 25rem;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 20px;
+}
+
+header {
+  padding: 10px;
+}
+
+header h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 15px;
+  letter-spacing: 4px
+}
+
+.content {
+  padding: 10px;
+  color: hsl(193, 38%, 86%);
+}
+
+.advice-text {
+  font-size: 24px;
+  color: hsl(193, 38%, 86%);
+  margin-bottom: 20px;
+  text-wrap: wrap;
+}
+
+#dividerDes {
+  width: 20rem;
+  padding: 10px;
+  margin-bottom: -20px;
+}
+
+.dice-btn {
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  bottom: -45px;
+}
+
+#icon {
+  padding: 10px;
+}
+
+.dice-btn:hover {
+  box-shadow: 0 0 20px hsl(150, 100%, 66%)
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  position: relative;
+  bottom: -80px;
+}
+
+.attribution a { 
+  color: aquamarine;
+}
